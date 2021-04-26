@@ -1,0 +1,20 @@
+.container {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  padding-left: 2%;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}

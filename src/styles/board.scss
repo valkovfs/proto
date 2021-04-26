@@ -1,0 +1,70 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  &_container {
+    margin: 10%;
+  }
+  &_column:nth-child(1) {
+    width: 60%;
+  }
+  &_column:nth-child(2) {
+    width: 40%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+  &_discribe {
+    margin: 20px 30px;
+    font-weight: bold;
+  }
+  &_words {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: aquamarine;
+    min-height: 30vh;
+  }
+  &_synonyms {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: hotpink;
+    min-height: 30vh;
+  }
+  &_info {
+    p {
+      text-align: center;
+      color: fuchsia;
+      font-size: 60px;
+      font-weight: 600;
+    }
+  }
+  &_button {
+    margin-top: 20px;
+    &-next {
+      padding: 15px 50px;
+      background-color: coral;
+      border: none;
+      font-weight: bold;
+      border-radius: 15px;
+      color: black;
+    }
+  }
+}
+
+.words {
+  &_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+  }
+}
