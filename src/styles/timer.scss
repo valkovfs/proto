@@ -1,4 +1,11 @@
 .timer {
   display: flex;
-  margin: 50px 0px 20px 0px
+  margin: 50px 0px 20px 0px;
+  align-items: flex-end;
+  &_counter {
+    font-size: 40px
+  }
+  &_describe {
+    font-size: 30px;
+  }
 }
