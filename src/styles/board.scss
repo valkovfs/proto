@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-basis: 75%;
   &_container {
-    margin: 10%;
+    margin: 5% 10%;
   }
   &_column:nth-child(1) {
     width: 60%;
@@ -29,14 +29,14 @@
     flex-wrap: wrap;
     flex-direction: column;
     background-color: aquamarine;
-    min-height: 30vh;
+    min-height: 25vh;
   }
   &_synonyms {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: hotpink;
-    min-height: 30vh;
+    min-height: 25vh;
   }
   &_info {
     p {
@@ -48,6 +48,7 @@
   }
   &_button {
     margin-top: 20px;
+    display: flex;
     &-next {
       padding: 15px 50px;
       background-color: coral;
@@ -55,6 +56,10 @@
       font-weight: bold;
       border-radius: 15px;
       color: black;
+    }
+    &-describe {
+      margin: 20px;
+      font-weight: 600;
     }
   }
 }

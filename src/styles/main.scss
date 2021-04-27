@@ -6,7 +6,6 @@
   margin: 0 auto;
   height: 100vh;
   padding-left: 2%;
-
 }
 
 .content {
@@ -17,4 +16,11 @@
 .links {
   display: flex;
   justify-content: flex-end;
+  background-color: bisque;
+  margin: 0 30px 50px 0px;
+  a {
+    padding-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+  }
 }

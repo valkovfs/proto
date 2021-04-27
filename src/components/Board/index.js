@@ -52,7 +52,7 @@ function Board() {
             </div>
             <div className="board_button">
                 <button className="board_button-next">Next word</button>
-                <p className="board_button-describe"></p>
+                <p className="board_button-describe">You can also press "Space"</p>
             </div>
             </div>
         </div>
