@@ -2,11 +2,12 @@
   "name": "prototype",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://valkovfs.github.io/proto",
+  "homepage": "http://valkovfs.github.io/proto",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "@zoomus/websdk": "^1.9.1",
     "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
