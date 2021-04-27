@@ -5,6 +5,7 @@ import Will from "../../assets/img/will.jpeg";
 import Bruce from "../../assets/img/bruce.jpg";
 import Jackie from "../../assets/img/jackie.jpg";
 import Kiany from "../../assets/img/kiany.jpg";
+import { ZoomMtg } from "@zoomus/websdk";
 
 function Cameras() {
     let players = [
